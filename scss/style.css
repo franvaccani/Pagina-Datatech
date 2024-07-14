@@ -1,10 +1,10 @@
+
 * {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -234,71 +234,6 @@ html {
   left: 60px;
 }
 
-.productosGeneral {
-  display: flex;
-  padding-top: 38px;
-  padding-left: 190px;
-  padding-bottom: 100px;
-}
-.productosGeneral ul {
-  display: flex;
-  text-decoration: none;
-  list-style-type: none;
-  color: black;
-  font-size: 18px;
-  gap: 5px;
-  margin-bottom: 0px;
-  padding: 0px;
-}
-.productosGeneral a {
-  text-decoration: none;
-  list-style-type: none;
-  color: black;
-  font-size: 16px;
-}
-
-.btn-primary {
-  --bs-btn-bg: #232323 !important;
-}
-
-h1 {
-  color: aqua;
-}
-
-footer {
-  color: white;
-  font-family: "Montserrat", serif;
-}
-footer ul > li {
-  list-style: none;
-}
-footer ul {
-  padding-left: 0px !important;
-}
-footer .table {
-  --bs-table-bg: #232323;
-  --bs-table-color: white;
-  border: solid 0.5px;
-  border-radius: 40px !important;
-}
-
-#cajasContenedor {
-  margin-bottom: 20px !important;
-}
-
-.row .mt-4 {
-  max-width: 100% !important;
-}
-
-#formControlLg {
-  font-size: 1rem;
-}
-
-.btn-warning {
-  background-color: white !important;
-  border-color: #232323 !important;
-}
-
 .contenedorCard1, .contenedorCard2 {
   display: flex !important;
   justify-content: center;
@@ -398,4 +333,68 @@ main h4 {
   .nav-lista a {
     font-size: 18px !important;
   }
+}
+.productosGeneral {
+  display: flex;
+  padding-top: 38px;
+  padding-left: 190px;
+  padding-bottom: 100px;
+}
+.productosGeneral ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 18px;
+  gap: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.productosGeneral a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 16px;
+}
+
+.btn-primary {
+  --bs-btn-bg: #232323 !important;
+}
+
+h1 {
+  color: aqua;
+}
+
+footer {
+  color: white;
+  font-family: "Montserrat", serif;
+}
+footer ul > li {
+  list-style: none;
+}
+footer ul {
+  padding-left: 0px !important;
+}
+footer .table {
+  --bs-table-bg: #232323;
+  --bs-table-color: white;
+  border: solid 0.5px;
+  border-radius: 40px !important;
+}
+
+#cajasContenedor {
+  margin-bottom: 20px !important;
+}
+
+.row .mt-4 {
+  max-width: 100% !important;
+}
+
+#formControlLg {
+  font-size: 1rem;
+}
+
+.btn-warning {
+  background-color: white !important;
+  border-color: #232323 !important;
 }/*# sourceMappingURL=style.css.map */
