@@ -11,7 +11,7 @@
     font-weight: 400;
 }
 #navbarNav-pages {
-    justify-content: space-between;
+    justify-content: space-evenly;
     h1 {
         font-size: 40px;
         color: rgba(0, 0, 0, 0.805);
@@ -30,7 +30,7 @@
 
     a {
         text-decoration: none;
-        font-size: 28px;
+        font-size: 26px;
         color: rgba(0, 0, 0, 0.805);
         font-family: "Montserrat", serif;
         font-weight: 500;

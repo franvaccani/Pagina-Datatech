@@ -1,0 +1,29 @@
+footer {
+    color: white;
+    font-family: "Montserrat", serif;
+    ul>li{
+        list-style: none;
+    }
+    ul{
+        padding-left: 0px !important;
+    }
+    .table{
+        --bs-table-bg: #232323;
+        --bs-table-color: white;
+        border: solid 0.5px;
+        border-radius: 40px !important;
+    }
+}
+#cajasContenedor{
+    margin-bottom: 20px !important;
+}
+.row .mt-4{
+    max-width: 100% !important;
+}
+#formControlLg{
+    font-size: 1rem;
+}
+.btn-warning{
+    background-color: white !important;
+    border-color: #232323 !important;
+}
