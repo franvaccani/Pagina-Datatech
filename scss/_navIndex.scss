@@ -6,7 +6,7 @@
   //TITULO PAGINA
   font-size: 40px;
   color: white;
-  font-family: "Montserrat", serif;
+  font-family: $tipografia-general;
   font-weight: 800;
 }
 .navbar-toggler{ //menu hambuerguesa
@@ -39,7 +39,7 @@
   text-decoration: none;
   font-size: 28px;
   color: white;
-  font-family: "Montserrat", serif;
+  font-family: $tipografia-general;
   font-weight: 500;
 }
 
@@ -91,7 +91,7 @@ border-color: black !important;
 
 .titulo1 h2 {
   font-size: 60px !important;
-  font-family: "Montserrat", serif;
+  font-family: $tipografia-general;
   font-weight: 900;
 }
 
@@ -103,7 +103,7 @@ border-color: black !important;
 
 .titulo2 h3 {
   font-size: 30px !important;
-  font-family: "Montserrat", serif;
+  font-family: $tipografia-general;
   font-weight: 700;
 }
 

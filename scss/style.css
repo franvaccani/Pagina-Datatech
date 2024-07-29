@@ -1,10 +1,10 @@
-
 * {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -187,12 +187,14 @@ html {
   font-weight: 400;
 }
 
-#navbarNav-pages {
+.navbarNav-pages {
   justify-content: space-evenly;
+  gap: 25px;
+  width: 100%;
 }
-#navbarNav-pages h1 {
+.navbarNav-pages h1 {
   font-size: 40px;
-  color: rgba(0, 0, 0, 0.805);
+  color: rgba(0, 0, 0, 0.805) !important;
   margin-left: 40px;
   font-family: "Montserrat", serif;
   font-weight: 800;
@@ -201,15 +203,19 @@ html {
 .nav-lista-pages {
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   list-style-type: none;
-  gap: 8px;
+  gap: 60px;
+  margin-top: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #232323;
+  width: 100%;
 }
 .nav-lista-pages a {
   text-decoration: none;
-  font-size: 26px;
-  color: rgba(0, 0, 0, 0.805);
+  font-size: 22px;
+  color: rgb(255, 255, 255);
   font-family: "Montserrat", serif;
   font-weight: 500;
 }
@@ -217,8 +223,20 @@ html {
 .nav-lista-pages a:hover {
   color: #898585;
   border-bottom: 0.1px solid #898585;
-  padding-bottom: 1px;
-  transition: 0.1;
+  padding-bottom: 2px;
+}
+
+.contenedor-pages {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+.contenedor-pages h1 {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.805) !important;
+  margin-left: 40px;
+  font-family: "Montserrat", serif;
+  font-weight: 800;
 }
 
 .bg-body-tertiary {
@@ -230,8 +248,45 @@ html {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 240px;
-  left: 60px;
+}
+
+.searchbar-pages {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 45px;
+  background-color: #232323;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: black;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 25px;
+  transition: width 0.4s linear;
+  padding: 0 10px;
+  width: 180px;
+  caret-color: rgb(255, 255, 255);
+  transition: width 0.4s linear;
+}
+
+.search_icon {
+  height: 28px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.fa-search:before {
+  color: grey;
 }
 
 .contenedorCard1, .contenedorCard2 {
@@ -257,6 +312,8 @@ main h4 {
 .card img {
   max-width: 100%;
   max-height: 100%;
+  height: 240px !important;
+  padding: 15px !important;
 }
 
 .card {
@@ -359,10 +416,6 @@ main h4 {
 
 .btn-primary {
   --bs-btn-bg: #232323 !important;
-}
-
-h1 {
-  color: aqua;
 }
 
 footer {
