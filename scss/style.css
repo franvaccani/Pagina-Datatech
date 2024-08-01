@@ -9,63 +9,8 @@ html {
   scroll-behavior: smooth;
 }
 
-#navbarNav {
-  justify-content: space-evenly;
-}
-
-#navbarNav h1 {
-  font-size: 40px;
-  color: white;
-  font-family: "Montserrat", serif;
-  font-weight: 800;
-}
-
-.navbar-toggler {
-  background-color: white !important;
-}
-
-.navbar {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  gap: 20px;
-}
-
-.navbar a {
-  color: black;
-  text-decoration: none;
-}
-
-.lista-inicio {
-  margin-left: 50px;
-}
-
-.nav-lista {
-  flex-wrap: wrap;
-  align-items: center;
-  list-style-type: none;
-  gap: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.nav-lista a {
-  text-decoration: none;
-  font-size: 28px;
-  color: white;
-  font-family: "Montserrat", serif;
-  font-weight: 500;
-}
-
-.nav-lista a:hover {
-  color: #898585;
-  border-bottom: 0.1px solid #898585;
-  padding-bottom: 2px;
-  transition: 0.1;
-}
-
 .botonBuscador {
-  color: white !important;
+  color: #232323;
   border-color: white !important;
   margin-left: 5px !important;
   border-radius: 16px !important;
@@ -82,45 +27,16 @@ html {
 }
 
 .header-img {
-  background: url(/assets/header.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: repeat;
-  height: 100vh;
+  height: 86vh;
   width: 100% !important;
 }
 
 .contenedorTitulos {
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 240px;
-  padding-left: 60px;
-}
-
-.titulo1 {
-  display: flex;
-  justify-content: left;
-  color: white;
-}
-
-.titulo1 h2 {
-  font-size: 60px !important;
-  font-family: "Montserrat", serif;
-  font-weight: 900;
-}
-
-.titulo2 {
-  display: flex;
-  justify-content: left;
-  color: #C0C0C0;
-}
-
-.titulo2 h3 {
-  font-size: 30px !important;
-  font-family: "Montserrat", serif;
-  font-weight: 700;
 }
 
 .logoWhs img {
@@ -138,7 +54,7 @@ html {
   margin-bottom: auto;
   margin-top: auto;
   height: 45px;
-  background-color: white;
+  background-color: rgba(37, 37, 40, 0.349);
   border-radius: 30px;
   padding: 10px;
 }
@@ -159,7 +75,7 @@ html {
 }
 
 .search_icon {
-  height: 28px;
+  height: 28 px;
   width: 40px;
   float: right;
   display: flex;
@@ -214,7 +130,7 @@ html {
 }
 .nav-lista-pages a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   color: rgb(255, 255, 255);
   font-family: "Montserrat", serif;
   font-weight: 500;
@@ -226,9 +142,25 @@ html {
   padding-bottom: 2px;
 }
 
+.crear-cuenta {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0px !important;
+  gap: 20px;
+}
+.crear-cuenta a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
 .contenedor-pages {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
   gap: 25px;
 }
 .contenedor-pages h1 {
@@ -254,13 +186,14 @@ html {
   margin-bottom: auto;
   margin-top: auto;
   height: 45px;
-  background-color: #232323;
-  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.843);
+  border-radius: 6px;
   padding: 10px;
+  width: 300px;
 }
 
 .search_input {
-  color: black;
+  color: rgba(0, 0, 0, 0.925);
   border: 0;
   outline: 0;
   background: none;
@@ -270,31 +203,33 @@ html {
   transition: width 0.4s linear;
   padding: 0 10px;
   width: 180px;
-  caret-color: rgb(255, 255, 255);
+  caret-color: rgb(145, 143, 143);
   transition: width 0.4s linear;
 }
 
 .search_icon {
-  height: 28px;
+  height: 25px;
   width: 40px;
   float: right;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: rgba(0, 0, 0, 0.432);
   text-decoration: none;
 }
 
 .fa-search:before {
-  color: grey;
+  color: rgb(157, 156, 156);
 }
 
-.contenedorCard1, .contenedorCard2 {
+.contenedorCard1,
+.contenedorCard2 {
   display: flex !important;
   justify-content: center;
   margin-top: 50px;
 }
-.contenedorCard1 .col-lg-3.col-md-6, .contenedorCard2 .col-lg-3.col-md-6 {
+.contenedorCard1 .col-lg-3.col-md-6,
+.contenedorCard2 .col-lg-3.col-md-6 {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -323,18 +258,21 @@ main h4 {
   border-radius: 0;
 }
 
-.carousel-inner {
-  padding: 1em;
+.carousel-item img {
+  height: 620px;
 }
 
-.carousel-control-prev,
+.carousel-inner {
+  animation: slider 1s infinite alternate !important;
+  animation-timing-function: ease-out;
+}
+
 .carousel-control-next {
-  background-color: #d21616;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
+  right: -70px !important;
+}
+
+.carousel-control-prev {
+  left: -70px !important;
 }
 
 @media (min-width: 768px) {

@@ -5,15 +5,18 @@
     justify-content: right;
     margin-right: 30px;
 }
+
 .inicio-pages>ul>li>a {
     font-size: 20px;
     font-family: $tipografia-general;
     font-weight: 400;
 }
+
 .navbarNav-pages {
     justify-content: space-evenly;
     gap: 25px;
     width: 100%;
+
     h1 {
         font-size: 40px;
         color: rgba(0, 0, 0, 0.805) !important;
@@ -22,6 +25,7 @@
         font-weight: 800;
     }
 }
+
 .nav-lista-pages {
     flex-wrap: wrap;
     align-items: center;
@@ -33,9 +37,10 @@
     padding-bottom: 10px;
     background-color: $color-primario;
     width: 100%;
+
     a {
         text-decoration: none;
-        font-size: 22px;
+        font-size: 18px;
         color: rgb(255, 255, 255);
         font-family: $tipografia-general;
         font-weight: 500;
@@ -47,12 +52,29 @@
     border-bottom: 0.1px solid #898585;
     padding-bottom: 2px;
 }
-.contenedor-pages{
+
+.crear-cuenta {
     display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0px !important;
+    gap: 20px;
 
-    justify-content: space-evenly;
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+    }
+   
+}
+
+.contenedor-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 25px;
-
     h1 {
         font-size: 40px;
         color: rgba(0, 0, 0, 0.805) !important;
@@ -61,6 +83,7 @@
         font-weight: 800;
     }
 }
+
 .bg-body-tertiary {
     --bs-bg-opacity: 0 !important;
 }
@@ -71,40 +94,44 @@
     align-items: center;
     position: relative;
 }
-.searchbar-pages{
+
+.searchbar-pages {
     margin-bottom: auto;
     margin-top: auto;
     height: 45px;
-    background-color: $color-primario;
-    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.843);
+    border-radius:6px;
     padding: 10px;
-    }
-    .search_input{
-    color: black;
+    width: 300px;
+}
+
+.search_input {
+    color: rgba(0, 0, 0, 0.925);
     border: 0;
     outline: 0;
     background: none;
     width: 0;
-    caret-color:transparent;
+    caret-color: transparent;
     line-height: 25px;
     transition: width 0.4s linear;
     padding: 0 10px;
     width: 180px;
-    caret-color:rgb(255, 255, 255);
+    caret-color: rgb(145, 143, 143);
     transition: width 0.4s linear;
-    }
-  
-    .search_icon{
-    height: 28px;
+}
+
+.search_icon {
+    height: 25px;
     width: 40px;
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:black;
-    text-decoration:none;
-  
-    }
-    .fa-search:before{
-      color: grey;
-    }
+    color: rgba(0, 0, 0, 0.432);
+    text-decoration: none;
+
+}
+
+.fa-search:before {
+    color: rgb(157, 156, 156);
+}
