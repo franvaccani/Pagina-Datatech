@@ -1,3 +1,34 @@
+@media (max-width: 450px) {
+    .contenedor-pages h1 {
+        font-size: 20px !important;
+        margin-left: 2px !important;
+    }
+
+    .crear-cuenta {
+    flex-direction: column;
+    gap: 0px !important;
+    a {
+        font-size: 13px !important;
+        margin-right: 3px !important;
+    }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .searchbar-pages {
+        width: 180px;
+    }
+
+    .search_input {
+        width: 120px;
+    }
+
+    .contenedor-pages h1 {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 992px) {
     .contenedorTitulos {
         top: 0px;
@@ -33,25 +64,53 @@
     .navbar-nav {
         align-content: flex-start;
         align-items: flex-start;
+
         li>a {
-            font-size: 20px;
+            font-size: 17px;
+            padding-left: 10px;
         }
     }
+
+    .nav-lista-pages {
+        gap: 30px;
+    }
+
     .lista-inicio {
         margin-left: 0px;
     }
-    .formulario{
+
+    .formulario {
         width: 500px !important;
         margin-bottom: 50px;
     }
-    .google{
+
+    .google {
         justify-content: center !important;
         text-align: center !important;
+    }
+
+    .contenedorHamburguesa {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+
+        button {
+            margin-left: 5px !important;
+            margin-bottom: 5px !important;
+        }
+    }
+
+    .container-fluid {
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    .carousel-item img{
+        height: auto !important;
     }
 }
 
 @media (max-width: 1140px) {
-.nav-lista a{
-    font-size: 18px !important;
-}
+    .nav-lista a {
+        font-size: 18px !important;
+    }
 }
