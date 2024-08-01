@@ -1,6 +1,7 @@
 .contenedorAcordeon{
     display: flex;
     justify-content: center;
+    @include flex(center,none,none);
 }
 .accordion{
     display: flex;

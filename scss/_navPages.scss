@@ -1,16 +1,3 @@
-.inicio-pages {
-    display: flex;
-    gap: 20px;
-    text-align: right;
-    justify-content: right;
-    margin-right: 30px;
-}
-
-.inicio-pages>ul>li>a {
-    font-size: 20px;
-    font-family: $tipografia-general;
-    font-weight: 400;
-}
 
 .navbarNav-pages {
     justify-content: space-evenly;
@@ -71,9 +58,7 @@
 }
 
 .contenedor-pages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(center,none,center);
     gap: 25px;
     h1 {
         font-size: 40px;
@@ -88,9 +73,7 @@
 }
 
 .contenedorTitulos-pages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center,none,center);
     position: relative;
 }
 
@@ -123,9 +106,7 @@
     height: 25px;
     width: 40px;
     float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center,none,center);
     color: rgba(0, 0, 0, 0.432);
     text-decoration: none;
 

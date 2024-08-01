@@ -37,6 +37,8 @@ html {
 .contenedorTitulos {
   display: flex;
   justify-content: center;
+  text-align: none;
+  align-items: none;
 }
 
 .logoWhs img {
@@ -91,20 +93,6 @@ html {
 
 .fa-search:before {
   color: grey;
-}
-
-.inicio-pages {
-  display: flex;
-  gap: 20px;
-  text-align: right;
-  justify-content: right;
-  margin-right: 30px;
-}
-
-.inicio-pages > ul > li > a {
-  font-size: 20px;
-  font-family: "Montserrat", serif;
-  font-weight: 400;
 }
 
 .navbarNav-pages {
@@ -163,8 +151,9 @@ html {
 
 .contenedor-pages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  text-align: none;
+  align-items: center;
   gap: 25px;
 }
 .contenedor-pages h1 {
@@ -181,6 +170,7 @@ html {
 .contenedorTitulos-pages {
   display: flex;
   justify-content: center;
+  text-align: none;
   align-items: center;
   position: relative;
 }
@@ -216,6 +206,7 @@ html {
   float: right;
   display: flex;
   justify-content: center;
+  text-align: none;
   align-items: center;
   color: rgba(0, 0, 0, 0.432);
   text-decoration: none;
@@ -233,9 +224,11 @@ html {
 }
 .contenedorCard1 .col-lg-3.col-md-6,
 .contenedorCard2 .col-lg-3.col-md-6 {
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  text-align: none;
+  align-items: none;
 }
 
 main {
@@ -380,6 +373,10 @@ main h4 {
 .contenedorAcordeon {
   display: flex;
   justify-content: center;
+  display: flex;
+  justify-content: center;
+  text-align: none;
+  align-items: none;
 }
 
 .accordion {

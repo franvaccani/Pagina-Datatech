@@ -27,8 +27,7 @@
 }
 
 .contenedorTitulos {
-  display: flex;
-  justify-content: center;
+  @include flex(center,none,none);
 }
 
 .logoWhs img {
