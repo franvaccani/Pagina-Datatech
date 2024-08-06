@@ -303,7 +303,6 @@ main h4 {
   .iconoDataTech {
     width: 140px;
     height: 48px;
-    margin-left: 35px;
   }
   .fa-ul {
     display: flex;
@@ -336,6 +335,9 @@ main h4 {
 @media (max-width: 992px) {
   .contenedorTitulos {
     top: 0px;
+  }
+  .productosGeneral {
+    margin-top: 10px !important;
   }
   .titulo1 {
     justify-content: center;
@@ -373,12 +375,16 @@ main h4 {
     margin-left: 0px;
   }
   .formulario {
-    width: 500px !important;
+    width: 455px !important;
     margin-bottom: 50px;
   }
   .google {
     justify-content: center !important;
     text-align: center !important;
+  }
+  .google iframe {
+    width: 440px !important;
+    height: 600px !important;
   }
   .contenedorHamburguesa {
     display: flex;
