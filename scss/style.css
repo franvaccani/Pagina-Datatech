@@ -309,6 +309,14 @@ main h4 {
     flex-direction: column;
     align-items: flex-start;
   }
+  .formulario {
+    width: 360px !important;
+    margin-bottom: 50px;
+  }
+  .google iframe {
+    width: 350px !important;
+    height: 480px !important;
+  }
   .container.h-100 {
     padding-right: 0px !important;
   }
@@ -375,7 +383,7 @@ main h4 {
     margin-left: 0px;
   }
   .formulario {
-    width: 455px !important;
+    width: 455px;
     margin-bottom: 50px;
   }
   .google {
@@ -383,8 +391,8 @@ main h4 {
     text-align: center !important;
   }
   .google iframe {
-    width: 440px !important;
-    height: 600px !important;
+    width: 440px;
+    height: 600px;
   }
   .contenedorHamburguesa {
     display: flex;
