@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.iconoDataTech {
+  width: 160px;
+  height: 60px;
+}
+
 .botonBuscador {
   color: #232323;
   border-color: white !important;
@@ -113,7 +118,7 @@ html {
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  gap: 60px;
+  gap: 80px;
   margin-top: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -154,6 +159,7 @@ html {
   justify-content: center;
   text-align: none;
   align-items: center;
+  flex-wrap: wrap;
   gap: 25px;
 }
 .contenedor-pages h1 {
@@ -182,7 +188,7 @@ html {
   background-color: rgba(0, 0, 0, 0.843);
   border-radius: 6px;
   padding: 10px;
-  width: 300px;
+  width: 370px;
 }
 
 .search_input {
@@ -190,7 +196,6 @@ html {
   border: 0;
   outline: 0;
   background: none;
-  width: 0;
   caret-color: transparent;
   line-height: 25px;
   transition: width 0.4s linear;
@@ -233,11 +238,13 @@ html {
 
 main {
   height: auto;
+  margin-top: 100px !important;
 }
 main h4 {
   font-family: "Montserrat", serif;
   text-align: center;
   margin-top: 50px;
+  font-size: 30px;
 }
 
 .card img {
@@ -254,13 +261,12 @@ main h4 {
   border-radius: 0;
 }
 
+.carousel-item {
+  transition: all !important;
+  transition: 3s ease-in-out !important;
+}
 .carousel-item img {
   height: 620px;
-}
-
-.carousel-inner {
-  animation: slider 1s infinite alternate !important;
-  animation-timing-function: ease-out;
 }
 
 .carousel-control-next {
@@ -281,24 +287,44 @@ main h4 {
     font-size: 20px !important;
     margin-left: 2px !important;
   }
+  .logoWhs img {
+    right: 25px !important;
+  }
   .crear-cuenta {
-    flex-direction: column;
     gap: 0px !important;
   }
   .crear-cuenta a {
-    font-size: 13px !important;
-    margin-right: 3px !important;
+    font-size: 16px !important;
+    margin-right: 8px !important;
+  }
+  .iconoDataTech {
+    width: 140px;
+    height: 48px;
+    margin-left: 35px;
+  }
+  .fa-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media (max-width: 768px) {
   .searchbar-pages {
-    width: 180px;
+    width: 200px;
   }
   .search_input {
     width: 120px;
   }
   .contenedor-pages h1 {
     font-size: 30px;
+  }
+  .card img {
+    width: 230px;
+    height: 210px !important;
+    margin-left: 24px;
+  }
+  .logoWhs img {
+    right: 25px !important;
   }
 }
 @media (max-width: 992px) {
@@ -364,6 +390,9 @@ main h4 {
   .carousel-item img {
     height: auto !important;
   }
+  main {
+    margin-top: 0px !important;
+  }
 }
 @media (max-width: 1140px) {
   .nav-lista a {
@@ -407,9 +436,10 @@ main h4 {
 
 .productosGeneral {
   display: flex;
-  padding-top: 38px;
-  padding-left: 190px;
-  padding-bottom: 100px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 43%;
 }
 .productosGeneral ul {
   display: flex;
@@ -430,6 +460,10 @@ main h4 {
 
 .btn-primary {
   --bs-btn-bg: #232323 !important;
+}
+
+.btn:hover {
+  background-color: black !important;
 }
 
 footer {
@@ -464,4 +498,8 @@ footer .table {
 .btn-warning {
   background-color: white !important;
   border-color: #232323 !important;
+}
+
+.btn-warning:hover {
+  background-color: rgb(182, 182, 182) !important;
 }/*# sourceMappingURL=style.css.map */

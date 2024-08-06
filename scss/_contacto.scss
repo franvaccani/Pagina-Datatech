@@ -1,8 +1,9 @@
 .productosGeneral{
     display: flex;
-    padding-top: 38px;
-    padding-left: 190px;
-    padding-bottom: 100px;
+    justify-content:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 43%;
     ul {
         display:flex;
         text-decoration: none;
@@ -22,4 +23,7 @@
 }
 .btn-primary{
     --bs-btn-bg: #232323 !important;
+}
+.btn:hover{
+background-color: black !important;
 }

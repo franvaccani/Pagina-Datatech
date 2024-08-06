@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    gap: 60px;
+    gap: 80px;
     margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -59,6 +59,7 @@
 
 .contenedor-pages {
     @include flex(center,none,center);
+    flex-wrap: wrap;
     gap: 25px;
     h1 {
         font-size: 40px;
@@ -84,7 +85,7 @@
     background-color: rgba(0, 0, 0, 0.843);
     border-radius:6px;
     padding: 10px;
-    width: 300px;
+    width: 370px;
 }
 
 .search_input {
@@ -92,7 +93,6 @@
     border: 0;
     outline: 0;
     background: none;
-    width: 0;
     caret-color: transparent;
     line-height: 25px;
     transition: width 0.4s linear;
