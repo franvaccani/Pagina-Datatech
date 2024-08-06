@@ -287,6 +287,9 @@ main h4 {
     font-size: 20px !important;
     margin-left: 2px !important;
   }
+  .contenedor-pages {
+    gap: 10px !important;
+  }
   .logoWhs img {
     right: 25px !important;
   }
