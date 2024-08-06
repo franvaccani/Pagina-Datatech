@@ -26,6 +26,9 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    .container.h-100{
+        padding-right: 0px !important;
+    }
 }
 
 @media (max-width: 768px) {
