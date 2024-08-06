@@ -18,9 +18,13 @@
         a {
             font-size: 16px !important;
             margin-right: 8px !important;
+            
         }
     }
-
+    .container{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
     .iconoDataTech {
         width: 140px;
         height: 48px;
@@ -67,6 +71,9 @@
 
     .logoWhs img {
         right: 25px !important;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        position: relative !important;
     }
 }
 
