@@ -22,8 +22,16 @@
     }
 }
 .btn-primary{
-    --bs-btn-bg: #232323 !important;
+    --bs-btn-bg: #3385ff !important;
+    font-family: $tipografia-general !important;
+    font-weight: 700 !important;
 }
 .btn:hover{
-background-color: black !important;
+   background-color: #3385ff !important;
+   border-color: #3385ff !important;
+}
+.google iframe {
+    width: 580px;
+    height: 520px;
+    border-radius: 20px;
 }

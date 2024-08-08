@@ -15,7 +15,7 @@ html {
 }
 
 .botonBuscador {
-  color: #232323;
+  color: #0c70eb;
   border-color: white !important;
   margin-left: 5px !important;
   border-radius: 16px !important;
@@ -122,20 +122,20 @@ html {
   margin-top: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #232323;
+  background-color: #0c70eb;
   width: 100%;
 }
 .nav-lista-pages a {
   text-decoration: none;
   font-size: 18px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "Montserrat", serif;
   font-weight: 500;
 }
 
 .nav-lista-pages a:hover {
-  color: #898585;
-  border-bottom: 0.1px solid #898585;
+  color: #ffffff;
+  border-bottom: 0.1px solid #ffffff;
   padding-bottom: 2px;
 }
 
@@ -185,10 +185,11 @@ html {
   margin-bottom: auto;
   margin-top: auto;
   height: 45px;
-  background-color: rgba(0, 0, 0, 0.843);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 6px;
   padding: 10px;
   width: 370px;
+  border: 1px solid black;
 }
 
 .search_input {
@@ -238,7 +239,7 @@ html {
 
 main {
   height: auto;
-  margin-top: 100px !important;
+  margin-top: 50px !important;
 }
 main h4 {
   font-family: "Montserrat", serif;
@@ -293,6 +294,10 @@ main h4 {
   .logoWhs img {
     right: 25px !important;
   }
+  .formulario {
+    width: 360px !important;
+    margin-bottom: 50px;
+  }
   .crear-cuenta {
     gap: 0px !important;
   }
@@ -312,10 +317,6 @@ main h4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-  .formulario {
-    width: 360px !important;
-    margin-bottom: 50px;
   }
   .google iframe {
     width: 350px !important;
@@ -350,6 +351,10 @@ main h4 {
 @media (max-width: 992px) {
   .contenedorTitulos {
     top: 0px;
+  }
+  .formulario {
+    width: 380px !important;
+    margin-bottom: 50px;
   }
   .productosGeneral {
     margin-top: 10px !important;
@@ -388,10 +393,6 @@ main h4 {
   }
   .lista-inicio {
     margin-left: 0px;
-  }
-  .formulario {
-    width: 455px;
-    margin-bottom: 50px;
   }
   .google {
     justify-content: center !important;
@@ -486,16 +487,26 @@ main h4 {
 }
 
 .btn-primary {
-  --bs-btn-bg: #232323 !important;
+  --bs-btn-bg: #3385ff !important;
+  font-family: "Montserrat", serif !important;
+  font-weight: 700 !important;
 }
 
 .btn:hover {
-  background-color: black !important;
+  background-color: #3385ff !important;
+  border-color: #3385ff !important;
+}
+
+.google iframe {
+  width: 580px;
+  height: 520px;
+  border-radius: 20px;
 }
 
 footer {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Montserrat", serif;
+  background-color: #0c70eb;
 }
 footer ul > li {
   list-style: none;
@@ -505,9 +516,9 @@ footer ul {
 }
 footer .table {
   --bs-table-bg: #232323;
-  --bs-table-color: white;
-  border: solid 0.5px;
-  border-radius: 40px !important;
+  --bs-table-color: rgb(255, 255, 255);
+  border: solid 0.5px rgb(255, 255, 255);
+  border-radius: 40px;
 }
 
 #cajasContenedor {
@@ -523,10 +534,15 @@ footer .table {
 }
 
 .btn-warning {
-  background-color: white !important;
-  border-color: #232323 !important;
+  background-color: #73a3eb !important;
+  border-color: rgba(255, 255, 255, 0) !important;
+  color: white !important;
 }
 
 .btn-warning:hover {
-  background-color: rgb(182, 182, 182) !important;
+  background-color: #73a3eb !important;
+}
+
+.table > :not(caption) > * > * {
+  background-color: #73a3eb !important;
 }/*# sourceMappingURL=style.css.map */

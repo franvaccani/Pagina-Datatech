@@ -12,7 +12,7 @@
 
  main {
    height: auto;
-   margin-top: 100px !important;
+   margin-top: 50px !important;
 
    h4 {
      font-family: $tipografia-general;
@@ -51,7 +51,7 @@
  .carousel-control-prev {
    left: -70px !important;
  }
-
+ 
  @media (min-width: 768px) {
    .card img {
      height: 11em;

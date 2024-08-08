@@ -1,6 +1,7 @@
 footer {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: $tipografia-general;
+    background-color: $color-primario;
     ul>li{
         list-style: none;
     }
@@ -9,9 +10,9 @@ footer {
     }
     .table{
         --bs-table-bg: #232323;
-        --bs-table-color: white;
-        border: solid 0.5px;
-        border-radius: 40px !important;
+        --bs-table-color: rgb(255, 255, 255);
+        border: solid 0.5px rgb(255, 255, 255);
+        border-radius: 40px;
     }
 }
 #cajasContenedor{
@@ -24,9 +25,13 @@ footer {
     font-size: 1rem;
 }
 .btn-warning{
-    background-color: white !important;
-    border-color: #232323 !important;
+    background-color: #73a3eb !important;
+    border-color: #ffffff00 !important;
+    color: white !important;
 }
 .btn-warning:hover{
-background-color: rgb(182, 182, 182) !important;
+    background-color: #73a3eb !important;
+}
+.table>:not(caption)>*>* {
+    background-color: #73a3eb !important;
 }
