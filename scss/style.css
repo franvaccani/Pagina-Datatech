@@ -545,4 +545,8 @@ footer .table {
 
 .table > :not(caption) > * > * {
   background-color: #73a3eb !important;
+}
+
+.numero {
+  text-decoration: none !important;
 }/*# sourceMappingURL=style.css.map */
