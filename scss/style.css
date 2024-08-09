@@ -347,6 +347,12 @@ main h4 {
   .carousel-control-next, .carousel-control-prev {
     position: relative !important;
   }
+  .procesadores {
+    margin-top: 46px;
+  }
+  .container-monitor {
+    margin-bottom: 15px !important;
+  }
 }
 @media (max-width: 992px) {
   .contenedorTitulos {
@@ -426,6 +432,19 @@ main h4 {
   .nav-lista a {
     font-size: 18px !important;
   }
+  .contenedor-monitores {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1250px) {
+  .contenedor-monitores {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .seccion h2 {
+    text-align: center;
+  }
 }
 .contenedorAcordeon {
   display: flex;
@@ -501,6 +520,85 @@ main h4 {
   width: 580px;
   height: 520px;
   border-radius: 20px;
+}
+
+.configurador {
+  display: flex;
+}
+
+.menu-componentes {
+  width: 300px;
+  background-color: rgba(190, 190, 190, 0.4431372549);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.menu-item {
+  display: block;
+  padding: 10px;
+  margin: 5px 0 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.menu-item.active {
+  background-color: rgba(177, 177, 177, 0.7882352941);
+}
+
+.seccion-contenido {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.seccion {
+  display: none;
+}
+
+.producto {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contenedor-monitores {
+  display: flex;
+}
+
+.container-monitor {
+  display: flex;
+  background-color: rgba(190, 190, 190, 0.4431372549);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: 380px;
+}
+.container-monitor h2 {
+  font-size: 20px;
+  padding-right: 10px;
+  margin-bottom: 20px !important;
+  font-family: "Montserrat", serif;
+  text-align: left;
+}
+.container-monitor p {
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+}
+
+.precios-carrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.precios-carrito p {
+  margin: 0px !important;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 footer {
