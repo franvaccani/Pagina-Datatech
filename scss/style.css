@@ -325,6 +325,15 @@ main h4 {
   .container.h-100 {
     padding-right: 0px !important;
   }
+  .menu-componentes {
+    width: 240px !important;
+  }
+  .menu-item img {
+    width: 40px !important;
+  }
+  .container-monitor {
+    width: 350px !important;
+  }
 }
 @media (max-width: 768px) {
   .searchbar-pages {
