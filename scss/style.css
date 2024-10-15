@@ -656,4 +656,71 @@ footer .table {
 
 .numero {
   text-decoration: none !important;
+}
+
+.labelCarrito {
+  margin-right: 10px;
+}
+
+select, input[type=number] {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.botonCarrito {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  width: 280px;
+  font-size: 16px;
+}
+
+.botonCarrito:hover {
+  background-color: #218838;
+}
+
+#eliminarProducto, #eliminarTodo {
+  background-color: #dc3545;
+}
+
+#eliminarProducto:hover, #eliminarTodo:hover {
+  background-color: #c82333;
+}
+
+#carrito {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.producto-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+#totalCosto {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: #28a745;
+}
+
+.carritoCompras {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: normal;
+  height: 80vh;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
