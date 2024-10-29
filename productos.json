@@ -1,0 +1,6 @@
+[
+    { "nombre": "Mate_madera", "precio": 500 },
+    { "nombre": "Mate_calabaza", "precio": 800 },
+    { "nombre": "Bombilla_acero", "precio": 300 },
+    { "nombre": "Kit_limpieza", "precio": 200 }
+]

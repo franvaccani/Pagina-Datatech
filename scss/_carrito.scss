@@ -4,7 +4,6 @@
 
 select, input[type="number"] {
     padding: 8px;
-    margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%;
@@ -62,5 +61,10 @@ select, input[type="number"] {
     align-content: center;
     align-items: normal;
     height: 80vh;
-    justify-content: flex-end;
+    justify-content: flex-end; 
+    h1,h2{
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
